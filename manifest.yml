@@ -1,0 +1,8 @@
+---
+applications:
+ - name: NEIDx
+   memory: 512M
+   disk_quota: 2048M
+   routes:
+   - route: neidx.netlify.app
+   command: npm run start-prod
